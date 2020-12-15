@@ -1,0 +1,22 @@
+{
+  "name": "dmitry-ios.github.io",
+  "version": "1.0.0",
+  "description": "works",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitry-ios/dmitry-ios.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitry-ios/dmitry-ios.github.io/issues"
+  },
+  "homepage": "https://github.com/dmitry-ios/dmitry-ios.github.io#readme",
+  "devDependencies": {
+    "serve": "^11.3.2"
+  }
+}
