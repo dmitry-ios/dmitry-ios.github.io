@@ -6,6 +6,30 @@ new Vue({
     title: 'Примеры работ',
     projects: [
       {
+        name: 'Сайт Uber Еда',
+        skills: 'HTML, SCSS, JavaScript',
+        screenshots: [
+          {
+            url: 'img/thumbnails/uber-eats-desktop.png',
+            title: 'uber-eats десктопный',
+            width: 200,
+            height: 155
+          },
+          {
+            url: 'img/thumbnails/uber-eats-tablet.png',
+            title: 'uber-eats планшетный',
+            width: 100,
+            height: 67
+          },
+          {
+            url: 'img/thumbnails/uber-eats-mobile.png',
+            title: 'uber-eats мобильный',
+            width: 50,
+            height: 90
+          }
+        ]
+      },
+      {
         name: 'Путешествие по Европе',
         skills: 'HTML, SCSS, JavaScript',
         screenshots: [
