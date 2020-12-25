@@ -7,7 +7,7 @@ new Vue({
     projects: [
       {
         name: 'Сайт Uber Еда',
-        skills: 'HTML, SCSS, JavaScript',
+        skills: 'HTML, SCSS, JavaScript'.split(', '),
         screenshots: [
           {
             url: 'img/thumbnails/uber-eats-desktop.png',
@@ -31,7 +31,7 @@ new Vue({
       },
       {
         name: 'Путешествие по Европе',
-        skills: 'HTML, SCSS, JavaScript',
+        skills: 'HTML, SCSS, JavaScript'.split(', '),
         screenshots: [
           {
             url: 'img/thumbnails/euro-trip-desktop.png',
@@ -55,7 +55,7 @@ new Vue({
       },
       {
         name: 'IP Address Tracker',
-        skills: 'HTML, SCSS, JavaScript',
+        skills: 'HTML, SCSS, JavaScript'.split(', '),
         screenshots: [
           {
             url: 'img/thumbnails/ip-address-tracker-desktop.png',
@@ -79,7 +79,7 @@ new Vue({
       },
       {
         name: 'Кексобукинг',
-        skills: 'Преимущественно JavaScript, готовая разметка и стили',
+        skills: 'Преимущественно JavaScript, готовая разметка и стили'.split(', '),
         screenshots: [
           {
             url: 'img/thumbnails/keksobooking-desktop.png',
@@ -91,7 +91,7 @@ new Vue({
       },
       {
         name: 'Кэт энерджи',
-        skills: 'HTML, Less, JavaScript',
+        skills: 'HTML, Less, JavaScript'.split(', '),
         screenshots: [
           {
             url: 'img/thumbnails/cat-energy-desktop.png',
@@ -115,7 +115,7 @@ new Vue({
       },
       {
         name: 'Нёрдс',
-        skills: 'HTML, CSS, JavaScript',
+        skills: 'HTML, CSS, JavaScript'.split(', '),
         screenshots: [
           {
             url: 'img/thumbnails/nerds-desktop.png',
@@ -127,7 +127,7 @@ new Vue({
       },
       {
         name: 'Transhub 24',
-        skills: 'HTML, Less, JavaScript, немного jQuery',
+        skills: 'HTML, Less, JavaScript, немного jQuery'.split(', '),
         screenshots: [
           {
             url: 'img/thumbnails/transhub-24-desktop.png',
@@ -151,7 +151,7 @@ new Vue({
       },
       {
         name: 'Седона',
-        skills: 'HTML, CSS',
+        skills: 'HTML, CSS'.split(', '),
         screenshots: [
           {
             url: 'img/thumbnails/sedona-desktop.png',
@@ -163,7 +163,7 @@ new Vue({
       },
       {
         name: 'Код и Магия',
-        skills: 'Преимущественно JavaScript, готовая верстка',
+        skills: 'Преимущественно JavaScript, готовая верстка'.split(', '),
         screenshots: [
           {
             url: 'img/thumbnails/code-and-magick-desktop.png',
@@ -175,7 +175,7 @@ new Vue({
       },
       {
         name: 'Meeting Ended Modal',
-        skills: 'HTML, CSS, JavaScript',
+        skills: 'HTML, CSS, JavaScript'.split(', '),
         screenshots: [
           {
             url: 'img/thumbnails/meeting-ended-modal-desktop.png',
@@ -187,7 +187,7 @@ new Vue({
       },
       {
         name: 'Sign In Modal',
-        skills: 'HTML, CSS',
+        skills: 'HTML, CSS'.split(', '),
         screenshots: [
           {
             url: 'img/thumbnails/sign-in-modal-desktop.png',
@@ -199,7 +199,7 @@ new Vue({
       },
       {
         name: 'The Great Keksby',
-        skills: 'HTML, CSS',
+        skills: 'HTML, CSS'.split(', '),
         screenshots: [
           {
             url: 'img/thumbnails/great-keksby-desktop.png',
