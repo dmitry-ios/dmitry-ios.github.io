@@ -13,14 +13,15 @@
       crossorigin="anonymous"
     />
 
+    <link rel="stylesheet" href="css/style.css">
     <title>Примеры работ</title>
   </head>
-  <body>
+  <body class="page__body">
     <div id="app">
       <div class="container">
         <h1 class="text-center mt-5">{{title}}</h1>
         <dl class="row">
-          <div class="row gy-5 border-top" v-for="project in projects">
+          <div class="row gy-5 border-top bg-light shadow pb-2 rounded" v-for="project in projects">
             <dt class="col-sm-3">{{project.name}}</dt>
             <dd class="col-sm-3">
               <span class="badge bg-secondary me-1 font-monospace" v-for="skill in project.skills">
@@ -39,6 +40,7 @@
             </dd>
           </div>
         </dl>
+        <p class="text-center pt-4">Copyright © <a href="https://github.com/dmitry-ios">github.com/dmitry-ios</a> 2020</p>
       </div>
     </div>
 
