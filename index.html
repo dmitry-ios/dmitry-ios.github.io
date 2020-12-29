@@ -27,7 +27,7 @@
                 <label class="form-label pt-2" for="skill-field">Фильтр:</label>
               </div>
               <div class="col-auto">
-                <select class="form-select" name="select-skill" id="skill-field" v-model="selected">
+                <select class="form-select" name="select-skill" id="skill-field" v-model="selected" v-bind:disabled="isLoading">
                   <option v-for="option in options" v-bind:value="option.value">
                     {{ option.text }}
                   </option>
@@ -51,7 +51,7 @@
                 </ul>
               </dt>
               <dd class="col-sm-3">
-                <span class="badge bg-secondary me-1 font-monospace" v-for="skill in project.skills">
+                <span class="badge bg-secondary me-1 font-monospace" v-for="skill in project.skills.split(', ')">
                   {{skill}}
                 </span>
               </dd>

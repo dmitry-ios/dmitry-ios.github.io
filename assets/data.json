@@ -2,6 +2,16 @@
   {
     "name": "Сайт Uber Еда",
     "skills": "HTML, SCSS, JavaScript",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/uber-eats"
+      },
+      {
+        "category": "home",
+        "url": "https://naughty-minsky-37325f.netlify.app/"
+      }
+    ],
     "screenshots": [
       {
         "url": "img/thumbnails/uber-eats-desktop.png",
@@ -26,6 +36,16 @@
   {
     "name": "Путешествие по Европе",
     "skills": "HTML, SCSS, JavaScript",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/euro-trip"
+      },
+      {
+        "category": "home",
+        "url": "https://focused-mcclintock-729c5f.netlify.app/"
+      }
+    ],
     "screenshots": [
       {
         "url": "img/thumbnails/euro-trip-desktop.png",
@@ -50,6 +70,16 @@
   {
     "name": "IP Address Tracker",
     "skills": "HTML, SCSS, JavaScript",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/IP-Address-Tracker"
+      },
+      {
+        "category": "home",
+        "url": "https://musing-newton-2daf03.netlify.app/"
+      }
+    ],
     "screenshots": [
       {
         "url": "img/thumbnails/ip-address-tracker-desktop.png",
@@ -74,6 +104,16 @@
   {
     "name": "Кексобукинг",
     "skills": "Преимущественно JavaScript, готовая разметка и стили",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/1483875-keksobooking-21"
+      },
+      {
+        "category": "home",
+        "url": "https://compassionate-austin-7a0844.netlify.app/"
+      }
+    ],
     "screenshots": [
       {
         "url": "img/thumbnails/keksobooking-desktop.png",
@@ -86,6 +126,24 @@
   {
     "name": "Кэт энерджи",
     "skills": "HTML, Less, JavaScript",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/1483875-cat-energy-20"
+      },
+      {
+        "category": "home",
+        "url": "https://nifty-agnesi-d1bbc6.netlify.app/"
+      },
+      {
+        "category": "catalog",
+        "url": "https://nifty-agnesi-d1bbc6.netlify.app/catalog.html"
+      },
+      {
+        "category": "form",
+        "url": "https://nifty-agnesi-d1bbc6.netlify.app/form.html"
+      }
+    ],
     "screenshots": [
       {
         "url": "img/thumbnails/cat-energy-desktop.png",
@@ -110,6 +168,20 @@
   {
     "name": "Нёрдс",
     "skills": "HTML, CSS, JavaScript",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/1483875-nerds-28"
+      },
+      {
+        "category": "home",
+        "url": "https://boring-jennings-6c9769.netlify.app/"
+      },
+      {
+        "category": "catalog",
+        "url": "https://boring-jennings-6c9769.netlify.app/catalog.html"
+      }
+    ],
     "screenshots": [
       {
         "url": "img/thumbnails/nerds-desktop.png",
@@ -122,6 +194,16 @@
   {
     "name": "Transhub 24",
     "skills": "HTML, Less, JavaScript, немного jQuery",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/Transhub24"
+      },
+      {
+        "category": "home",
+        "url": "https://compassionate-lumiere-28ffc2.netlify.app/"
+      }
+    ],
     "screenshots": [
       {
         "url": "img/thumbnails/transhub-24-desktop.png",
@@ -146,6 +228,20 @@
   {
     "name": "Седона",
     "skills": "HTML, CSS",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/sedona"
+      },
+      {
+        "category": "home",
+        "url": "https://inspiring-mahavira-ed0a4e.netlify.app/"
+      },
+      {
+        "category": "catalog",
+        "url": "https://inspiring-mahavira-ed0a4e.netlify.app/catalog.html"
+      }
+    ],
     "screenshots": [
       {
         "url": "img/thumbnails/sedona-desktop.png",
@@ -158,6 +254,16 @@
   {
     "name": "Код и Магия",
     "skills": "Преимущественно JavaScript, готовая верстка",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/1483875-code-and-magick-21"
+      },
+      {
+        "category": "home",
+        "url": "https://clever-wozniak-bbc709.netlify.app/"
+      }
+    ],
     "screenshots": [
       {
         "url": "img/thumbnails/code-and-magick-desktop.png",
@@ -170,6 +276,16 @@
   {
     "name": "Meeting Ended Modal",
     "skills": "HTML, CSS, JavaScript",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/template-example/tree/master/MeetingEndedModal"
+      },
+      {
+        "category": "home",
+        "url": "https://jovial-curran-1fdece.netlify.app/"
+      }
+    ],
     "screenshots": [
       {
         "url": "img/thumbnails/meeting-ended-modal-desktop.png",
@@ -182,6 +298,16 @@
   {
     "name": "Sign In Modal",
     "skills": "HTML, CSS",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/template-example/tree/master/SignIn"
+      },
+      {
+        "category": "home",
+        "url": "https://focused-khorana-6c2795.netlify.app/"
+      }
+    ],
     "screenshots": [
       {
         "url": "img/thumbnails/sign-in-modal-desktop.png",
@@ -194,6 +320,16 @@
   {
     "name": "The Great Keksby",
     "skills": "HTML, CSS",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/the-great-keksby"
+      },
+      {
+        "category": "home",
+        "url": "https://sleepy-ramanujan-ebf175.netlify.app/"
+      }
+    ],
     "screenshots": [
       {
         "url": "img/thumbnails/great-keksby-desktop.png",
