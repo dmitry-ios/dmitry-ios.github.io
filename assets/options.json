@@ -1,0 +1,11 @@
+[
+  { "text": "Все", "value": "any" },
+  { "text": "HTML", "value": "html" },
+  { "text": "CSS", "value": "css" },
+  { "text": "SCSS", "value": "scss" },
+  { "text": "Less", "value": "less" },
+  { "text": "Bootstrap", "value": "bootstrap" },
+  { "text": "JavaScript", "value": "javascript" },
+  { "text": "jQuery", "value": "jquery" },
+  { "text": "Vue.js", "value": "vuejs" }
+]
