@@ -10,6 +10,13 @@ const titlesOfType = {
   'form': 'Форма'
 };
 
+const iconNamesOfType = {
+  'code': '/img/icons/github.svg',
+  'home': '/img/icons/house.svg',
+  'catalog': '/img/icons/columns-gap.svg',
+  'form': '/img/icons/ui-checks-grid.svg'
+};
+
 new Vue({
   el: '#app',
   data: {
@@ -43,6 +50,9 @@ new Vue({
     }
   },
   methods: {
+    iconByType: function (type) {
+      return iconNamesOfType[type];
+    },
     titleByType: function (type) {
       return titlesOfType[type];
     },
