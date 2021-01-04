@@ -18,66 +18,31 @@
   </head>
   <body class="page__body">
     <div class="app-container" id="app">
-      <header>
-        <div class="container">
-          <h1 class="text-center mt-5">{{title}}</h1>
-          <form>
-            <div class="row pt-3">
-              <div class="col-auto">
-                <label class="form-label pt-2" for="skill-field">Фильтр:</label>
-              </div>
-              <div class="col-auto">
-                <select class="form-select" name="select-skill" id="skill-field" v-model="selected" v-bind:disabled="isLoading">
-                  <option v-for="option in options" v-bind:value="option.value">
-                    {{ option.text }}
-                  </option>
-                </select>
-              </div>
-            </div>
-          </form>
-          <p class="pt-3 text-muted">Результат: <b>{{ projects.length }}</b></p>
-        </div>
-      </header>
+      <page-header
+        v-bind:title="title"
+        v-bind:loading="isLoading"
+        v-bind:options="options"
+        v-bind:results="projects.length"
+        v-on:select="selectNewProjects">
+      </page-header>
+
       <main>
         <div class="container">
           <dl class="row">
             <div class="row gy-5 border-top bg-light shadow pb-2 rounded" v-for="project in projects">
-              <dt class="col-sm-3">
-                {{project.name}}
-                <ul class="list-unstyled pt-2">
-                  <li v-for="link in project.links">
-                    <img v-bind:src="iconByType(link.category)" alt="link.category" width="16" height="16">
-                    <a class="fw-normal text-center" v-bind:href="link.url">{{titleByType(link.category)}}</a>
-                  </li>
-                </ul>
-              </dt>
-              <dd class="col-sm-3">
-                <span class="badge bg-secondary me-1 font-monospace" v-for="skill in project.skills.split(', ')">
-                  {{skill}}
-                </span>
-              </dd>
-              <dd class="col-sm-6">
-                <img
-                  class="img-thumbnail me-1 mb-1"
-                  v-for="image in project.screenshots"
-                  v-bind:src="image.url"
-                  v-bind:alt="image.title"
-                  v-bind:width="image.width"
-                  v-bind:height="image.height"
-                />
-              </dd>
+              <term-links
+                v-bind:name="project.name"
+                v-bind:links="project.links">
+              </term-links>
+              <skills v-bind:skills="project.skills"></skills>
+              <thumbnails v-bind:screenshots="project.screenshots"></thumbnails>
             </div>
           </dl>
-          <p class="fw-normal fs-5 text-primary text-center pt-5" v-if="projects.length === 0">
-            Ничего нет
-          </p>
+          <empty-message v-bind:show="projects.length === 0"></empty-message>
         </div>
       </main>
-      <footer>
-        <div class="container">
-          <p class="text-center pt-4">Copyright © <a href="https://github.com/dmitry-ios">github.com/dmitry-ios</a> 2020</p>
-        </div>
-      </footer>
+
+      <page-footer></page-footer>
     </div>
 
     <!-- development version, includes helpful console warnings -->
