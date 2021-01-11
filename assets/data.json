@@ -274,6 +274,34 @@
     ]
   },
   {
+    "name": "Profile Card Component",
+    "skills": "HTML, CSS, Vue.js",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/profile-card"
+      },
+      {
+        "category": "home",
+        "url": "https://jovial-ptolemy-0fcd6c.netlify.app/"
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "img/thumbnails/profile-card-desktop.png",
+        "title": "profile-card десктопный",
+        "width": 200,
+        "height": 89
+      },
+      {
+        "url": "img/thumbnails/profile-card-mobile.png",
+        "title": "profile-card мобильный",
+        "width": 50,
+        "height": 76
+      }
+    ]
+  },
+  {
     "name": "Meeting Ended Modal",
     "skills": "HTML, CSS, JavaScript",
     "links": [
@@ -336,6 +364,34 @@
         "title": "great-keksby десктопный",
         "width": 200,
         "height": 98
+      }
+    ]
+  },
+  {
+    "name": "Примеры работ",
+    "skills": "HTML, Bootstrap, Vue.js",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/dmitry-ios.github.io"
+      },
+      {
+        "category": "home",
+        "url": "https://dmitry-ios.github.io/"
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "img/thumbnails/primer-desktop.png",
+        "title": "primer десктопный",
+        "width": 200,
+        "height": 88
+      },
+      {
+        "url": "img/thumbnails/primer-mobile.png",
+        "title": "primer мобильный",
+        "width": 50,
+        "height": 109
       }
     ]
   }
