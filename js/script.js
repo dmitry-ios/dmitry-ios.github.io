@@ -173,8 +173,8 @@ new Vue({
         return item.value === selected;
       });
 
-      this.projects = this.all.filter(function (item, index, array) {
-        return item.skills.indexOf(currentSelected.text) !== -1;
+      this.projects = this.all.filter((item, index, array) => {
+        return item.skills.split(', ').includes(currentSelected.text);
       });
     }
   }

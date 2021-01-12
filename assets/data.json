@@ -103,7 +103,7 @@
   },
   {
     "name": "Кексобукинг",
-    "skills": "Преимущественно JavaScript, готовая разметка и стили",
+    "skills": "JavaScript",
     "links": [
       {
         "category": "code",
@@ -193,7 +193,7 @@
   },
   {
     "name": "Transhub 24",
-    "skills": "HTML, Less, JavaScript, немного jQuery",
+    "skills": "HTML, Less, JavaScript, jQuery",
     "links": [
       {
         "category": "code",
@@ -253,7 +253,7 @@
   },
   {
     "name": "Код и Магия",
-    "skills": "Преимущественно JavaScript, готовая верстка",
+    "skills": "JavaScript",
     "links": [
       {
         "category": "code",
