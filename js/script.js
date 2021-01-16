@@ -79,9 +79,8 @@ Vue.component('empty-message', {
     'show'
   ],
   template: `
-  <p class="fw-normal fs-5 text-primary text-center pt-5" v-if="show">
-    Ничего нет
-  </p>
+  <p class="fw-normal fs-5 text-black-50 text-center text-uppercase pt-5" v-if="show">
+    Ой, тут ничего нет</p>
   `
 });
 
@@ -127,10 +126,16 @@ Vue.component('page-header', {
 });
 
 Vue.component('page-footer', {
+  computed: {
+    currentYear: function () {
+      return new Date().getFullYear();
+    }
+  },
   template: `
   <footer>
     <div class="container">
-      <p class="text-center pt-4">Copyright © <a href="https://github.com/dmitry-ios">github.com/dmitry-ios</a> 2020</p>
+      <p class="text-center pt-4">
+        Copyright © <a href="https://github.com/dmitry-ios">github.com/dmitry-ios</a> 2020 – {{currentYear}}</p>
     </div>
   </footer>
   `
