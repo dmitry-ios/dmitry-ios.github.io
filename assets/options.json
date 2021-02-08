@@ -7,6 +7,5 @@
   { "text": "Bootstrap", "value": "bootstrap" },
   { "text": "JavaScript", "value": "javascript" },
   { "text": "jQuery", "value": "jquery" },
-  { "text": "Vue.js", "value": "vuejs" },
-  { "text": "React.js", "value": "react"}
+  { "text": "Vue.js", "value": "vuejs" }
 ]

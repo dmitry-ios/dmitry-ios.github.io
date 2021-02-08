@@ -1,5 +1,45 @@
 [
   {
+    "name": "Проект «Велосипеды»",
+    "skills": "HTML, SCSS, JavaScript",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/bicycles"
+      },
+      {
+        "category": "home",
+        "url": "https://affectionate-newton-9cbfae.netlify.app/"
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "img/thumbnails/bicycle-desktop.png",
+        "title": "bicycles десктопный",
+        "width": 200,
+        "height": 157
+      },
+      {
+        "url": "img/thumbnails/bicycle-1024-desktop.png",
+        "title": "bicycles десктопный",
+        "width": 100,
+        "height": 121
+      },
+      {
+        "url": "img/thumbnails/bicycle-tablet.png",
+        "title": "bicycles планшетный",
+        "width": 100,
+        "height": 147
+      },
+      {
+        "url": "img/thumbnails/bicycle-mobile.png",
+        "title": "bicycles мобильный",
+        "width": 50,
+        "height": 119
+      }
+    ]
+  },
+  {
     "name": "Сайт Uber Еда",
     "skills": "HTML, SCSS, JavaScript",
     "links": [
