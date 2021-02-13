@@ -1,6 +1,7 @@
 [
   { "text": "Все", "value": "any" },
   { "text": "HTML", "value": "html" },
+  { "text": "Pug", "value": "pug" },
   { "text": "CSS", "value": "css" },
   { "text": "SCSS", "value": "scss" },
   { "text": "Less", "value": "less" },

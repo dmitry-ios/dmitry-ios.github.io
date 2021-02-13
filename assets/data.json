@@ -232,6 +232,40 @@
     ]
   },
   {
+    "name": "TEST",
+    "skills": "Pug, SCSS, JavaScript",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/custom-test-mediaworks"
+      },
+      {
+        "category": "home",
+        "url": "https://jolly-wing-dbb8ca.netlify.app/"
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "img/thumbnails/test-1024-desktop.png",
+        "title": "TEST десктопный 1024",
+        "width": 200,
+        "height": 195
+      },
+      {
+        "url": "img/thumbnails/test-desktop.png",
+        "title": "TEST десктопный",
+        "width": 200,
+        "height": 104
+      },
+      {
+        "url": "img/thumbnails/test-tablet.png",
+        "title": "TEST планшетный",
+        "width": 100,
+        "height": 91
+      }
+    ]
+  },
+  {
     "name": "Transhub 24",
     "skills": "HTML, Less, JavaScript, jQuery",
     "links": [
