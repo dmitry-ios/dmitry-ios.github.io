@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "works",
   "main": "index.html",
+  "private": true,
   "scripts": {
     "start": "serve"
   },

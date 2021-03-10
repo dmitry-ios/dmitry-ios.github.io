@@ -1,5 +1,45 @@
 [
   {
+    "name": "Проект «Smart Device»",
+    "skills": "HTML, SCSS, JavaScript",
+    "links": [
+      {
+        "category": "code",
+        "url": "https://github.com/dmitry-ios/smart-device"
+      },
+      {
+        "category": "home",
+        "url": "https://dmitry-ios.github.io/smart-device/"
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "img/thumbnails/smart-device-1920.png",
+        "title": "smart-device десктопный",
+        "width": 200,
+        "height": 91
+      },
+      {
+        "url": "img/thumbnails/smart-device-form.png",
+        "title": "smart-device форма",
+        "width": 150,
+        "height": 91
+      },
+      {
+        "url": "img/thumbnails/smart-device-770.png",
+        "title": "smart-device планшетный",
+        "width": 100,
+        "height": 114
+      },
+      {
+        "url": "img/thumbnails/smart-device-320.png",
+        "title": "smart-device мобильный",
+        "width": 50,
+        "height": 137
+      }
+    ]
+  },
+  {
     "name": "Проект «Велосипеды»",
     "skills": "HTML, SCSS, JavaScript",
     "links": [
